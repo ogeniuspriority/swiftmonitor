@@ -28,7 +28,6 @@ class CreateProductsTable extends Migration
             $table->text('description');
             $table->text('careinstructions');
             $table->string('material');
-           
             $table->string('code');
             $table->timestamps();
         });
